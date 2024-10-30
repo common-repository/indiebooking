@@ -1,0 +1,18 @@
+<wpml-config>
+    <admin-texts>
+        <key name="rs_indiebooking_settings_mail_inquiry_confirmation_txt"/>
+        <key name="rs_indiebooking_settings_mail_inquiry_subject"/>
+        <key name="rs_indiebooking_settings_mail_inquiry_deny_txt"/>
+        <key name="rs_indiebooking_settings_mail_inquiry_deny_subject"/>
+        <key name="rs_indiebooking_settings_mail_confirm_subject"/>
+        <key name="rs_indiebooking_settings_mail_booking_confirmation_txt"/>
+        <key name="rs_indiebooking_settings_mail_invoice_subject"/>
+        <key name="rs_indiebooking_settings_mail_booking_invoice_txt"/>
+        <key name="rs_indiebooking_settings_mail_storno_subject"/>
+        <key name="rs_indiebooking_settings_mail_storno_confirmation_txt"/>
+        <key name="rs_indiebooking_settings_stornobedingung_txt"/>
+        <key name="rs_indiebooking_settings_invoice_terms_of_payment_txt"/>
+        <key name="rs_indiebooking_settings_booking_agb_txt"/>
+        <key name="rs_indiebooking_settings_stornobedingung_txt_ifr"/>
+    </admin-texts>
+</wpml-config>

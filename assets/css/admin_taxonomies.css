@@ -1,0 +1,30 @@
+/**
+ * In dieser Datei sind alle Styles die für die Taxonomies wie bspw. Coupons und Optionen gelten sollen.
+ * Durch diese Datei wird die traditionelle zweispaltige Ansicht von Wordpress innerhalb von Indiebooking 
+ * deaktiviert. 
+ */
+
+/**
+ ******************************Deaktivieren der zweispalten Ansicht**************************************
+ * Durch das neue Wordpressupdate wurden col-right und col-left getauscht wordurch diese CSS Veränderung
+ * nicht mehr das gewünschte Ergebnis bringt.
+ */
+body.taxonomy-rsgutschein #col-container #col-right,
+body.taxonomy-rsrealgutschein #col-container #col-right,
+body.taxonomy-rsappartmentoption #col-container #col-right, 
+body.taxonomy-rsappartmentcategories #col-container #col-right, 
+body.taxonomy-rsappartmentaktion #col-container #col-right {
+/* 	float: left; */
+/* 	clear: none; */
+/* 	width: 100%;	 */
+}
+body.taxonomy-rsgutschein #col-container #col-left,
+body.taxonomy-rsrealgutschein #col-container #col-left,
+body.taxonomy-rsappartmentoption #col-container #col-left,
+body.taxonomy-rsappartmentcategories #col-container #col-left,
+body.taxonomy-rsappartmentaktion #col-container #col-left
+{
+/* 	float: right; */
+/* 	clear: none; */
+/* 	width: 100%; */
+}

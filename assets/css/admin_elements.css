@@ -1,0 +1,174 @@
+
+.indiebooking_admin_error_Dialog {
+	z-index: 1000;
+}
+
+.rs_ib_display_none {
+	display: none;
+}
+
+.rs_ib_taxonomy_popup {
+	display: none;
+}
+
+.form-control {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+
+.ib_dialog_false_icon {
+	width: 32px;
+	height: 32px;
+	min-width: 32px;
+	min-height: 32px;
+	background: #ffffff url("../images/icon_xmark.png") no-repeat scroll right center;
+	margin: 0 auto;
+}
+
+.ib_dialog_true_icon {
+	width: 32px;
+	height: 32px;
+	min-width: 32px;
+	min-height: 32px;
+	background: #ffffff url("../images/icon_check.png") no-repeat scroll right center;
+	margin: 0 auto;
+}
+
+.rs_ib_profile_picture_radio {
+	float: left;
+}
+.admin_info_sign {
+	margin: 0px 5px;
+	font-size: 16px;
+}
+
+.form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+.form-inline .form-control {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+}
+
+/*.input-group-no-bs .ui-spinner {
+	padding: 3px 0px;
+	min-width: 50px;
+	text-align: right;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-left: none;
+}
+
+.ui-spinner input.ui-spinner-input {
+	text-align: right;
+	padding-right: 5px;
+	min-width: 45px;
+}*/
+
+.input-group-no-bs input {
+	min-height: 30px;
+	z-index: 1;
+}
+
+.input-group-no-bs select {
+	border-left: none;
+	box-shadow: none;/*0 0px 0px rgba(0, 0, 0, 0.07) inset;*/
+	border-radius: 0px 2px 2px 0px;
+}
+
+
+
+#aktion_price, #appartment_aktion_type, #appartment_aktion_number_type, 
+#appartment_aktion_calc_type, #aktion_condition_value, #gutschein_type {
+	min-width: 100px;
+	max-width: 150px;
+}
+
+#gutschein_code {
+	min-width: 170px;
+	max-width: 200px;	
+}
+
+#appartment_aktion_condition_type, #gutschein_condition_type {
+	min-width: 150px;
+	max-width: 220px;
+	width: 220px;	
+}
+
+.appartment_action_admin_view .rs_ib_input_table {
+	max-width: 800px;
+}
+
+#dateTable_from_to_active, #apartment_check_table, #option_check_table, #booked_timerange_box {
+	/*max-width: 500px;*/
+}
+
+
+#appartment_option_calculation_type {
+	min-width: 170px;
+	max-width: 200px;		
+}
+
+#appartment_option_price_mwst {
+	min-width: 100px;
+	max-width: 150px;	
+}
+
+/* #coupon_dateTable_from_to_active .cbColumn { */
+.dateTable_from_to_active .cbColumn {
+	vertical-align: left;
+	text-align: left;
+	width: 75px;
+	min-width: 75px;
+	max-width: 75px;
+}
+
+
+table.rs_ib_input_table .highlight td {
+    background-color: #8eb5c3;
+}
+
+#edit_booking_contact_data_box .ibui_switchbtn label,
+#edit_booking_contact_data_box .ibui_switchbtn input {
+	margin: 0px;
+}
+
+
+/*
+.frame::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.frame::-webkit-scrollbar:vertical {
+    width: 11px;
+}
+
+.frame::-webkit-scrollbar:horizontal {
+    height: 11px;
+}
+
+.frame::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid white; /* should match background, can't be transparent 
+}
+
+.frame::-webkit-scrollbar-track { 
+    background-color: #fff; 
+    border-radius: 8px; 
+} 
+*/

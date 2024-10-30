@@ -1,0 +1,187 @@
+.date {
+	display: border-box;
+	width: 100%;
+}
+
+.datedisabled {
+    color: #5C5C8A !important;
+    background: #ff0000;
+}
+
+.booked_first_disabled {
+	background: rgba(0, 0, 0, 0) linear-gradient(-45deg, #ff3f3f 0%, #ff3f3f 49%, #a5ee88 50%, #a5ee88 100%) repeat scroll 0 0;
+/* 	background: rgba(0, 0, 0, 0) linear-gradient(-45deg, #ff3f3f 0%, #ff3f3f 49%, #a5ee88 50%, #a5ee88 100%) repeat scroll 0 0; */
+/* 	background-image: -webkit-gradient(linear, right top, left bottom, from(#ff3f3f), to(#a5ee88)); */
+	background: -webkit-linear-gradient(-45deg, #a5ee88 0%, #a5ee88 49%, #ff3f3f 50%, #ff3f3f 100%) repeat scroll 0 0;
+/* 	background-image:    -moz-linear-gradient(top, #ff3f3f, #a5ee88); */
+/* 	background-image:      -o-linear-gradient(top, #ff3f3f, #a5ee88); */
+/* 	background-image:         linear-gradient(to bottom, #ff3f3f, #a5ee88);	 */
+}
+
+.booked_first_disabled :hover, .booked_last_disabled :hover, .bookedenabled :hover  {
+	cursor: pointer;
+}
+
+.booked_last_disabled {
+	background: rgba(0, 0, 0, 0) linear-gradient(135deg, #ff3f3f 0%, #ff3f3f 49%, #a5ee88 50%, #a5ee88 100%) repeat scroll 0 0;
+	background: -webkit-linear-gradient(135deg, #a5ee88 0%, #a5ee88 49%, #ff3f3f 50%, #ff3f3f 100%) repeat scroll 0 0;
+}
+
+/* .pickmeup .pmu-instance nav .pmu-prev { */
+/* 	float: left; */
+/* } */
+
+/* .pickmeup .pmu-instance nav .pmu-next { */
+/* 	float: right; */
+/* } */
+/* .pickmeup .pmu-instance:first-child:last-child .pmu-month { */
+/* 	float: left; */
+/* } */
+
+
+.bookedenabled .day, .legend .bookedenabled, .bookedenabled .arrivalday_green {
+	background: #a5ee88;
+}
+
+.bookedenabled .arrivalday {
+    position: relative;
+    /*background: rgba(0, 0, 0, 0) linear-gradient(#a5ee88 50%, #008080) repeat scroll 0 0;
+	background: -webkit-linear-gradient(#a5ee88 50%, #008080) repeat scroll 0 0;	*/
+/* 	background: #008080; */
+}
+
+.bookedenabled .arrivalday::after {
+    background-color: #ffcc00;
+    content: "";
+    height: 2px;
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    opacity: 1;
+}
+
+ul.legend .arrivalday {
+    position: relative;
+	/*background: rgba(0, 0, 0, 0) linear-gradient(#a5ee88 50%, #008080) repeat scroll 0 0;
+	background: -webkit-linear-gradient(#a5ee88 50%, #008080) repeat scroll 0 0;	*/
+}
+
+ul.legend .arrivalday::after {
+    background-color: #ffcc00;
+    content: "";
+    height: 2px;
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.bookeddisabled .day, .legend .bookeddisabled {
+    color: #5C5C8A !important;
+    background: #ff3f3f;
+}
+
+.bookeddisabled :hover, .notbookable :hover, .old_date :hover {
+	cursor: default;
+}
+
+#currently_booked_dates .rs_zabuto-calendar .bookedenabled, #currently_booked_dates .rs_zabuto-calendar .bookedenabled :hover {
+	cursor: default !important;	
+}
+
+.notbookable .day, .legend .notbookable {
+    background: #f0f0f0;
+	/*background: rgba(0, 0, 0, 0) repeating-linear-gradient(135deg, #ff3f3f 5%, #e9e9e9 20%) repeat scroll 0 0;
+	background: -webkit-repeating-linear-gradient(135deg, #ff3f3f 5%, #e9e9e9 20%) repeat scroll 0 0;*/
+}
+
+div.zabuto_calendar .table tr td div.day {
+    min-width: 22px;
+}
+
+.old_date .day {
+    background: none;
+    color: #adadad;
+	/*background: rgba(0, 0, 0, 0) repeating-linear-gradient(135deg, #c0c0c0 5%, #e9e9e9 20%) repeat scroll 0 0;
+	background: -webkit-repeating-linear-gradient(-45deg, #c0c0c0 5%, #e9e9e9 20%) repeat scroll 0 0;*/
+}
+
+#found_appartment_list .rs_zabuto-calendar {
+	max-width: 300px;
+}
+
+/* #found_appartment_list .rs_zabuto-calendar .zabuto_calendar .table tr td div.day { */
+/*     margin: 0; */
+/*     padding-bottom: 1px; */
+/*     padding-top: 1px; */
+/* } */
+
+/* #found_appartment_list .rs_zabuto-calendar .zabuto_calendar .table tr.calendar-month-header th { */
+/*     padding-bottom: 0px; */
+/*     padding-top: 0px; */
+/* 	font-size: 12px; */
+/* } */
+
+/* #found_appartment_list .rs_zabuto-calendar .table tr.calendar-month-header th span { */
+/*     padding-bottom: 5px; */
+/* } */
+
+/* #found_appartment_list .rs_zabuto-calendar .table th, div.zabuto_calendar .table td { */
+/* 	padding: 2px; */
+/* } */
+
+.zabuto_calendar table {
+/* 	border: 1px solid #ededed; */
+/* 	border: 2px solid #dbdbdb; */
+}
+
+
+.rs_ib_floating_calendar_left {
+	float: left;
+	min-width: 246px;
+	padding: 0px 5px 0px 0px;
+	background: #fafafa;
+/* 	border-top: 2px solid #dbdbdb; */
+}
+
+.rs_ib_floating_calendar_right {
+	float: right;
+	min-width: 246px;
+	padding: 0px 0px 0px 5px;
+	background: #fafafa;
+/* 	border-top: 2px solid #dbdbdb; */
+}
+
+div .rs_ib_floating_calendar {
+	border-top: 1px solid #dbdbdb;
+}
+
+.rs_ib_floating_calendar .table th,
+.rs_ib_floating_calendar .table td  {
+	border: none !important;
+}
+
+div.rs_ib_floating_calendar_right tr.calendar-month-header div.calendar-month-navigation_prev {
+	display: none; 
+}
+div.rs_ib_floating_calendar_left tr.calendar-month-header div.calendar-month-navigation_next {
+	display: none;
+}
+
+div.zabuto_calendar .table tr td.event-styled div.notavailable {
+    background-color: #ff3f3f;
+}
+
+div.zabuto_calendar table.table th {
+	color: black;
+}
+
+div.zabuto_calendar .table tr td div.day.notbookable {
+    background: #f0f0f0;
+}
+
+div.zabuto_calendar .table tr td.bookedenabled div.day.maxdaterangenotbookable {
+/* 	background: #f0f0f0 !important; */
+	opacity: 0.6;
+}

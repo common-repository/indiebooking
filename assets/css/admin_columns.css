@@ -1,0 +1,134 @@
+.taxonomy-rsappartmentaktion #col-left,
+.taxonomy-rsgutschein #col-left,
+.taxonomy-ibrealgutschein #col-left,
+.taxonomy-rsappartmentoption #col-left,
+.taxonomy-rsappartmentcategories #col-left {
+	display: none;
+}
+
+.taxonomy-rsappartmentaktion #col-right,
+.taxonomy-rsgutschein #col-right,
+.taxonomy-ibrealgutschein #col-right,
+.taxonomy-rsappartmentoption #col-right,
+.taxonomy-rsappartmentcategories #col-right{
+	width: 100%;
+}
+
+.dateTable_from_to_active .rs_ib_floating_calendar_left {
+	max-width: 300px;
+}
+
+.dateTable_from_to_active .rs_ib_floating_calendar_right {
+	max-width: 300px;
+}
+
+.dateTable_from_to_active .rs_ib_floating_datepicker {
+	max-width: 150px;	
+}
+
+.dateTable_from_to_active .cbColumn {
+/* 	max-width: 50px; */
+/* 	width: 50px; */
+}
+
+/*********BUCHUNGSÜBERSICHT*********/
+.widefat .column-bookingStatus {
+/*     text-align: center; */
+    width: 150px;
+}
+@media only screen and (max-device-width: 1500px) {
+	.widefat .column-bookingStatus {
+	/*     text-align: center; */
+	    width: 85px;
+	}
+}
+
+.widefat .column-bookedDates {
+/*     text-align: center; */
+    width: 200px;
+}
+
+.widefat .column-bookingNr {
+/*     text-align: center; */
+    width: 150px;
+}
+
+.widefat .column-Time_of_recording {
+	width: 200px;
+}
+/**********************************/
+
+/********APPARTMENTÜBERSICHT*******/
+.widefat .column-apartment_thumb {
+/*     text-align: center; */
+    width: 110px;
+}
+
+.widefat .column-bookedDates {
+/*     text-align: center; */
+    width: 200px;
+}
+
+.widefat .column-bookingNr,
+.widefat .column-invoiceNr {
+/*     text-align: center; */
+    width: 145px;
+}
+
+@media only screen and (max-device-width: 1500px) {
+	.widefat .column-bookingNr,
+	.widefat .column-invoiceNr {
+	/*     text-align: center; */
+	    width: 85px;
+	}
+}
+
+.widefat .column-calendar {
+    width: 250px;
+}
+
+.widefat .column-calendar table {
+    font-size: 11px !important;
+}
+
+.widefat .column-calendar .rs_zabuto-calendar .zabuto_calendar .table tr td div.day {
+    margin: 0;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.widefat .column-calendar .rs_zabuto-calendar .zabuto_calendar .table tr.calendar-month-header th {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-weight: 600;
+}
+
+.widefat .column-calendar .rs_zabuto-calendar .table tr.calendar-month-header th span {
+    padding-bottom: 5px;
+}
+
+.widefat .column-calendar .rs_zabuto-calendar .table th, div.zabuto_calendar .table td {
+	padding: 2px;
+	font-size: 11px !important;
+}
+
+/**********************************/
+
+
+/********APPARTMENTAKTIONEN*******/
+.widefat .column-forAllApartments {
+	width: 65px;
+}
+
+.widefat .column-campaign_type {
+	width: 100px;
+}
+
+.widefat .column-calculation_type {
+	width: 150px;
+}
+
+.widefat  .column-value {
+	width: 100px;
+}
+/**********************************/

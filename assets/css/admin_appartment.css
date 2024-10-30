@@ -1,0 +1,360 @@
+
+.ibui_admin_to_much_apartments .wp-editor-expand div.mce-toolbar-grp,
+.ibui_admin_to_much_apartments .button-primary,
+.ibui_admin_to_much_apartments input,
+.ibui_admin_to_much_apartments .postbox-container,
+.ibui_admin_to_much_apartments #poststuff {
+	display:none;
+	z-index: 0;
+}
+/* .ibui_admin_to_much_apartments #wpbody-content { */
+/* 	display: none; */
+/* } */
+.ibui_indiebooking_not_clickable_btn .btn_rewa {
+	background: #dddddd none repeat scroll 0 0;
+	color: #7f7f7f;
+}
+
+.ibui_admin_to_much_apartments_modal {
+    position: fixed; /* Stay in place*/
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /*Full width*/
+    height: 100%; */Full height*/
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */	
+}
+
+.ibui_admin_to_much_apartments_modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+	text-align: center;
+    width: 80%; /* Could be more or less, depending on screen size */	
+}
+
+.post-type-rsappartment .ui-datepicker-year {
+	display: none;
+}
+
+.rs_ib_saisonpreis_box {
+	margin-bottom: 10px;	
+}
+
+#apartment_not_bookable_table {
+	/*max-width: 300px; */
+}
+
+#appartment_btn_insert_company_infos {
+	margin-left: 64px;
+}
+
+#appartment_shortdescription {
+	/* 	width: 100%; */
+	/* Firefox */
+	width: -moz-calc(100% - 18px);
+	/* WebKit */
+	width: -webkit-calc(100% - 18px);
+	/* Opera */
+	width: -o-calc(100% - 18px);
+	/* Standard */
+	width: calc(100% - 18px);
+}
+
+.ibui_tab_content_container .inside .categorydiv {
+   max-height: 500px;
+   overflow: scroll;	
+}
+
+.fullinputfield {
+	width: 100%;
+}
+
+#appartment_booking_dates, #appartment_price_dates, #default_price_container {
+	float: left;
+/* 	max-width: 250px; */
+	max-width: 100%;
+    width: 100%;
+}
+
+#currently_booked_dates {
+	float: right;
+	min-width: 300px;
+	/*max-width: 300px;
+	width: 300px;*/
+    width: 100%;
+}
+
+#currently_booked_dates table, #currently_booked_dates table th, #currently_booked_dates table td {
+    font-size: 14px !important;
+}
+
+.appartment_booked_date {
+	float: right;
+}
+
+#appartment_booking_infos {
+	box-sizing: border-box;
+	/*min-height: 350px;*/
+}
+
+/* #appartment_min_date_range { */
+.appartment_admin_number_spinner {
+	max-width: 15px;
+}
+
+#appartment_years_indipendent_prices .ui-datepicker-year{
+/*     display:none; */
+}
+
+.apartment_images {
+/* 	min-width: 500px; */
+/* 	max-width: 1300px; */
+}
+
+.add_apartment_images {
+	text-align: right;	
+}
+
+td.image {
+	min-width: 250px;
+}
+
+#appartment_payment_info_container {
+    overflow: visible !important;
+    padding-bottom: 65px;
+    width: 100%;	
+}
+
+#appartment_booking_infos {
+    overflow: visible !important;
+    /*padding-bottom: 65px;*/
+    width: 100%;		
+}
+
+th.btn_ib_td, td.btn_ib_td {
+	/*width: 1%;*/
+	/*text-align: center;*/
+}
+
+table.rs_ib_input_table td input[type="text"]:disabled, table.rs_ib_input_table td input[type="number"]:disabled {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    box-shadow: none;
+}
+
+table.rs_ib_input_table td input[type="text"], table.rs_ib_input_table td input[type="number"] {
+/*     background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0; */
+    border: 0 none;
+    margin: 0;
+    padding: 5px 7px;
+    width: 100%;
+}
+
+table.rs_ib_input_table tr:nth-child(odd) td input[type="text"], table.rs_ib_input_table tr:nth-child(odd) td input[type="number"] {
+	background: rgba(255, 255, 255) none repeat scroll 0 0;
+	/*width: 80%;*/
+    width: 100%;
+}
+
+table.rs_ib_input_table tr:nth-child(even) td input[type="text"], table.rs_ib_input_table tr:nth-child(even) td input[type="number"] {
+	background: rgba(255, 255, 255) none repeat scroll 0 0;
+	/*width: 80%;*/
+}
+
+#appartment_default_prices_table td.tableInput input {
+/* 	width: 80%;	 */
+}
+
+table.rs_ib_input_table td input.onlyNumber,
+.bookingcom_extracharge_container input.onlyNumber {
+	text-align: right;
+}
+
+table.rs_ib_input_table .dateColumn {
+	min-width:150px;
+	max-width:150px;
+	/*width:150px;  */
+}
+
+
+table.rs_ib_input_table th, table.rs_ib_input_table td {
+/* 	#dfdfdf */
+/*    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    border-top: 0 none;
+    padding: 5px 0px; */
+}
+
+table.rs_ib_input_table th,
+table.rs_ib_input_table.widefat th {
+	/*background-color: #000040;
+	color: white;
+	padding-left: 7px;
+	font-weight: bold; */
+}
+
+table.rs_ib_input_table .tableInput {
+	text-align: center;
+	vertical-align: middle;
+}
+
+table.rs_ib_input_table td.tableInput input {
+	/*border: 2px inset #EBE9ED;*/
+        border: 1px #e9e9e9 solid;
+    width: 100%;
+    height: auto;
+    font-size: 100%;
+    padding: 5px 7px;
+    margin: 0px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    float: left;
+}
+
+table.appartment_years_indipendent_prices_table .admin_info_sign {
+	color: white;
+}
+
+table.rs_ib_input_table tr:nth-child(odd), table.rs_ib_input_table tr:nth-child(odd) td { 
+	/*background-color:#efefef; */
+}
+
+
+table.rs_ib_input_table tr:nth-child(even), table.rs_ib_input_table tr:nth-child(even) td { 
+	/*background-color:#ffffff; */
+}
+
+table.rs_ib_input_table tr.rs_ib_filled_from_saison_before td {
+	background: #ff9000; /*red;*/
+}
+
+.rs_ib_floating_calender_popup_container .zabuto_calendar table tr td {
+	background-color: #ffffff;
+}
+
+.rs_ib_floating_calender_popup_container {
+	z-index: 100;
+}
+
+
+#rs_apartment_images_container li.image {
+	box-sizing: border-box;
+    color: #464646;
+    cursor: move;
+    float: left;
+    list-style: outside none none;
+    margin: 5px;
+    padding: 8px;
+    position: relative;
+    text-align: center;	
+}
+
+#rs_apartment_images_container .apartment_images a.delete {
+    position: absolute;
+	color: red;
+	font-size: 16px;
+    right: 0px;	
+	top: 0px;
+/* 	background: white; */
+/* 	background: rgb(255,255,255); */
+/* 	background: rgba(255,255,255,0.5);	 */
+	
+} 
+
+
+#appartment_price_mwst {
+	width: 120px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;	
+}
+
+#appartment_anzahl_personen_vorbelegung {
+	width: 100px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;	
+    text-align: center;	
+}
+
+.input-group-no-bs {
+    border-collapse: separate;
+    display: table;
+    position: relative;	
+}
+
+.input-group-addon-no-bs {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #555;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    padding: 6px 12px;
+    text-align: center;	
+	display: table-cell;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 1%;		
+	border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+.input-group-field-no-bs {
+	display: table-cell;
+    float: left;
+    margin-bottom: 0;
+    position: relative;
+    width: 100%;
+    z-index: 2;	
+}
+
+input.input-group-field-no-bs {
+	/* border: 1px solid #ccc;
+	border-left: none;	
+	margin: 0px !important; */
+}
+
+input.ui-spinner-input {
+	/*border: none; */
+}
+
+.form-inline .form-group-no-bs {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+
+.rs_ib_day_cb_table {
+	max-width: 300px;
+	width: 300px;
+	text-align: center;
+}
+
+.rs_ib_day_cb_table tr td, .rs_ib_day_cb_table tr th {
+	max-width: 14%;
+	width: 14%
+}
+
+#default_appartment_infos {
+/* 	max-width: 70%; */
+/*	max-width: 85%; */
+    max-width: 100%;
+}
+
+#default_appartment_infos .input-group-addon-no-bs {
+	text-align: left;
+	width: 130px;
+}
+
+#appartment_anzahl_betten, #appartment_anzahl_betten_2 {
+    min-width: 35px;
+    padding-right: 5px;
+    text-align: right;
+	border: medium none;
+	color: black;
+}

@@ -1,0 +1,132 @@
+table {
+    border-bottom: 1px solid #ededed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 12px;
+    line-height: 2;
+    margin: 0 0 20px;
+/*     width: 100%; */
+}
+
+.rs_ib_print_border_top {
+	border-top: 1px solid;
+}
+
+.no_padding {
+	padding: -5px 0px 0px 0px;
+}
+
+.anschrift_absatz {
+	padding: 5px 0px 0px 0px;
+}
+
+#booked_timerange_box table {
+	text-align: center;
+	border: 1px solid #ededed;
+}
+
+#booked_timerange_box table tr td {
+	padding: 0px 5px 0px 5px;
+	border: 1px solid #ededed;
+}
+
+#full_price_display_box {
+	min-width: 300px;
+	max-width: 300px;
+	float: right;
+}
+
+.floating_table {
+/* 	float: right; */
+	max-width: 300px;
+}
+
+#booking_box {
+	width: 100%;
+	text-align: right;
+}
+
+
+.clear {
+	clear: both;
+}
+
+.borderTable {
+	border-width: 1px; 
+	border-style:solid; 
+	border-color:black;
+	padding: 3px;	
+}
+
+.myTableRow {
+	border-width: 1px; 
+	border-style:solid; 
+	border-color:black;
+	padding: 3px;
+	min-width: 70px;	
+}
+
+.myTableRowBold {
+	border-width: 1px; 
+	border-style:solid; 
+	border-color:black;
+	padding: 3px;
+	min-width: 70px;
+	text-decoration: overline;
+	font-weight: bold;
+}
+
+
+
+.date_container {
+	
+}
+
+.appartment_price_table_definition {
+	text-align: right;
+}
+
+.appartment_full_price_table_definition {
+	border-top: 1px #efefef solid;
+	text-decoration: underline;
+}
+
+.date {
+	float: right;
+}
+  
+/*
+ * Print
+ */
+.printHeader {
+	min-height: 135px;
+	text-align: center;
+}
+
+.einheit {
+	text-align: center;
+}
+
+.printHeader table td, table td * {
+    vertical-align: top;
+	font-family:Arial,sans-serif;
+	font-size:24px; 
+}
+
+.printFooter table td, table td * {
+    vertical-align: bottom;
+	font-family:Arial,sans-serif;
+	font-size:10px; 
+}
+
+.rs_ib_pdf_logo {
+	max-width: 300px;
+ 	height: auto;
+ 	max-height: 100px;
+}
+
+.print_ueberschrift {
+	width: 100%;
+/* 	color:red; */
+}
+

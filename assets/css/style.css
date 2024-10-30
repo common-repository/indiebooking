@@ -1,0 +1,999 @@
+/* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   speak for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+
+    div.rs_ib_floating_calender_popup_container{
+        position: absolute;
+        display: none;
+    }
+/* .postbox .inside, .stuffbox .inside { */
+/*     font-size: 13px; */
+/*     line-height: 1.4em; */
+/* } */
+/* .postbox, .stuffbox { */
+/*     line-height: 1; */
+/* } */
+/* body { */
+/*     color: #444; */
+/*     font-family: "Open Sans",sans-serif; */
+/*     line-height: 1.4em; */
+/* } */
+/* body, p { */
+/*     font-size: 13px; */
+/* } */
+
+
+.indiebooking_fast_link_container img {
+	box-shadow: inset 0 0 15px rgba(0,0,0,.1),inset 0 0 0 1px rgba(0,0,0,.05);
+	background: #eee;	
+}
+
+/* @import url('../bootstrap/css/bootstrap.css');  */
+@import url('bootstrap-glyphicons.css');
+/* @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"); */
+
+#dialog_agb {
+	overflow-y: scroll;
+	overflow-x: visible;
+}
+
+.ibui_body_wrapper.post-type-rsappartment_buchung #edit-slug-box,
+.ibui_body_wrapper.post-type-rsappartment_buchung #postdivrich {
+	display: none;
+}
+
+#rs_ib_icon_logo_container .rs_ib_icon_logo {
+	height: 64px;
+	width: 64px;
+	max-height: 64px;
+	max-width: 64px;
+}
+
+#rs_ib_icon_logo_container {
+	max-width: 70px;
+	float: left;
+}
+
+.varying_price_cell {
+	display: none;
+}
+
+.countdownbox {
+	padding: 20px 0px;
+}
+
+.rs_short_appartment {
+	min-height:300px;
+	height:300px;
+/* 	max-height:300px; */
+}
+
+.remove_datepicker_date_2 {
+	font-size: 18px;
+	padding: 5px 0px 0px 5px;
+}
+
+.remove_datepicker_date, .remove_datepicker_date_2 {
+	color: red;
+}
+
+.remove_datepicker_date:hover, .remove_datepicker_date_2:hover {
+	cursor:pointer;
+}
+
+.appartment_gallerie {
+/* 	float: left; */
+/* 	margin-right: 20px; */
+/* 	width: 50%; */
+    float: none;
+    max-width: 70000px;
+	margin-bottom: 0px;
+}
+
+@media screen and (max-width: 992px) {
+  #appartment_gallerie {
+	float: none;
+  }
+}
+
+.apartmentimage img {
+  width: auto;
+  height: 400px;
+  max-height: 370px;
+  margin: 0px auto; 
+}
+
+#search_categorie {
+/* 	min-width: calc(100% + 37px); */
+/* 	width: calc(100% + 37px); */
+}
+
+#booking_status_box_menu .status_box  a:hover{
+	cursor: default;
+}
+
+#booking_status_box_menu .navigate_possible a:hover{
+	cursor: pointer;
+}
+
+#booking_status_box_menu .progress_ok1 a {
+/* 	background-color: #008000; */
+	background-image: linear-gradient(to right, #ddd, #00ff00);
+}
+
+#booking_status_box_menu .progress_ok2 a {
+/* 	background-color: green; */
+	background-image: linear-gradient(to right, #00ff00, #00c400);
+}
+
+#booking_status_box_menu .progress_ok3 a {
+/* 	background-color: green; */
+	background-image: linear-gradient(to right, #00c400, #008000);
+}
+
+#booking_status_box_menu .progress_ok4 a {
+	background-color: green;
+}
+
+/* .navigate_possible :hover { */
+/* 	cursor: pointer; */
+/* } */
+
+.daterow {
+	min-width: 100px;
+}
+
+#price_display_table_small {
+	width: 100%;
+}
+
+#price_display_table_small td.right_td {
+	text-align: right;
+}
+
+#price_display_table_small .teilkopfheader {
+	background-color: #f5f5f5;
+}
+
+#price_display_table_small .teilsummenzeile {
+	border-top: 1px solid black;
+	padding-bottom: 10px;
+}
+
+#price_display_table_small .rabattierteteilsummenzeile {
+	border-top: 1px solid black;
+}
+
+#price_display_table_small .fullprice_td {
+	border-top: 4px double black;
+}
+
+#current_price_box {
+	min-width: 50px;
+	min-height: 50px;
+}
+
+#price_display_table1 .rabattierteteilsummenzeile {
+/* 	text-decoration: overline;	 */
+	font-weight: normal;
+}
+
+select.form-control {
+    -moz-appearance: none !important;
+    background: #ffffff url("../images/btn_dropdown_h64.png") no-repeat scroll right center;
+    color: #353535;
+    font-size: 100%;
+    text-indent: 0.01px;
+    text-overflow: "";
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+
+.toggleLink .rs_ib_toggleBtn {
+	font-size: 20px;
+}
+
+.toggleLink {
+	background-color: #ececec;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 25px;
+}
+
+#contact_data_box {
+	padding: 0px 40px;
+}
+
+#zahlungsarten_data_box {
+	padding: 5px 40px 15px 40px;
+}
+
+#coupon_input_group #btnApplyCouponCode {
+	font-size: 14px;
+	padding: 2px 16px;
+}
+/* @media screen and (max-width: 1200px) { */
+/*   #coupon_input_group #btnApplyCouponCode { */
+/*   	padding: 10px 16px; */
+/*   } */
+/* } */
+
+#coupon_input_group #apartment_coupon_code {
+	padding: 2px 16px;	
+	height: 40px;
+}
+
+#final_contact_box #btnSaveBooking {
+	display: none;
+}
+
+@media screen and (max-width: 400px) {
+	#coupon_code_box label {
+		display: none;
+	}
+	
+	#coupon_code_box .col-xs-10 {
+		width: 100%;
+	}
+}
+
+#coupon_input_group {
+	max-width: 300px;
+	width: 300px;
+}
+
+#current_price_box_data #coupon_input_group {
+	max-width: 100%;
+	width: 100%;	
+}
+
+#current_price_box_data #coupon_input_group #apartment_coupon_code {
+	max-width: 100%;
+	width: 100%;
+}
+
+#apartment_coupon_code {
+	max-width: 300px;
+	width: 300px;
+}
+
+#coupon_code_box {
+	margin-bottom: 20px;
+}
+
+#booking_status_box_menu a {
+	color: black;
+}
+
+
+/* #booking_status_box_menu { */
+/* 	clear: both; */
+/* } */
+
+/* #booking_status_box_menu ul li { */
+/* 	float: left; */
+/* 	margin-left: 0; */
+/* 	width: auto !important; */
+/* } */
+
+/* #booking_status_box_menu li { */
+/*     background-position: -96px -100px; */
+/*     background-repeat: no-repeat; */
+/*     display: block; */
+/*     float: left; */
+/*     height: 61px; */
+/* } */
+
+
+
+
+table {
+    border-bottom: 1px solid #ededed;
+	/* 
+	Update 07.06.2016 musste herausgenommen werden,
+	da sonst die Popup Mediathek nicht mehr angezeigt wird 
+	*/
+/*     border-collapse: collapse; */
+    border-spacing: 0;
+    font-size: 12px;
+    line-height: 2;
+    margin: 0 0 20px;
+}
+
+#price_display_table {
+	/*width: 80%;*/
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+	#price_display_table {
+		width: 100%;
+	}
+}
+
+.ui-widget-content {
+    color: #333333;
+}
+
+.date_container {
+	margin: 0px 0px 10px 0px;
+}
+
+#appartmentOptionsBox {
+	float: left;	
+}
+
+#contact_data_box .text-danger,
+#edit_booking_contact_data_box .text-danger {
+/* 	visibility: hidden; */
+	display: none;
+}
+
+#contact_data_box input, #contact_data_box select,
+#edit_booking_contact_data_box input, #edit_booking_contact_data_box select {
+	margin-top: 10px;
+}
+
+#contact_data_box label,
+#edit_booking_contact_data_box label {
+	margin-top: 10px;
+}
+
+@media (max-width: 330px) {
+	.rs_indiebooking_popup_button_box a.btn {
+		margin-top: 10px;
+	}
+
+	.countdownbox {
+		padding: 20px 0px 15px 0px !important;
+	}
+}
+
+.countdown {
+	width: 100%;
+	text-align: center;
+	font-size: 34px;
+	color: red;
+/* 	display: none; */
+}
+
+.countdown_label {
+	width: 100%;
+	text-align: center;
+	font-size: 34px;
+	color: red;
+}
+
+.settings_table th {
+	text-align: left;
+	padding-right: 10px;
+}
+
+.default_ib_table {
+	max-width: 300px;
+}
+
+.default_ib_table td {
+	max-width: 200px;
+}
+
+.default_ib_table .btn_ib_td {
+	max-width: 100px;
+	text-align: center;
+}
+
+.mail_subject {
+	width: 100%;
+}
+
+#booked_timerange_box table {
+	text-align: center;
+	border: 1px solid #ededed;
+}
+
+/* #booked_timerange_box table tr { */
+/* 	border: 1px solid #ededed; */
+/* } */
+
+#booked_timerange_box table tr td {
+	padding: 0px 5px 0px 5px;
+	border: 1px solid #ededed;
+}
+
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1200;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('../../images/loading_1.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+.ib_lazy_load_apartmentimage.ibloading {
+/* 	background-image: url('../../images/loading_1.gif'); */
+    background: rgba( 255, 255, 255, .8 ) 
+                url('../../images/loading_1.gif') 
+                50% 50% 
+                no-repeat;	
+}
+
+
+.nojavascript {
+	display:	block;
+	overflow: 	hidden; 
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 )
+				url('../../images/loading_1.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+.nojavascript section, .nojavascript header, .nojavascript footer {
+	display: none;
+}
+
+.nojavascript .nojavascript_text {
+/* 	margin: auto 0; */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.small_modal {
+    display:    none;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+	min-height: 50px;
+    width:      100%;
+    background: transparent
+                url('../../images/loading_1.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+#search_box {
+	margin: 10px 0px 0px 0px;
+}
+
+.rewa_datepicker {
+    background-color: #ffffff;
+	background-image: url("../../images/icon_kalender.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-attachment: scroll;
+	background-size: 18px auto;
+	cursor: pointer;
+/*     display: block; */
+/*     width: 100px; */
+}
+
+#found_appartment_list article {
+	margin: 10px 0px 10px 0px;
+}
+
+#found_appartment_list article:hover {
+	background: #000000;
+}
+
+#found_appartment_list .attachment-apartment-thumbnail {
+    max-height: 120px;
+    width: auto;
+}
+
+@media screen and (max-width: 1200px) {
+	#found_appartment_list .attachment-apartment-thumbnail {
+    	max-height: 100px;
+    	width: auto;
+	}
+}
+
+#found_appartment_list .item1 {
+	background: #c0c0c0;
+}
+
+#found_appartment_list .item2 {
+	background: #00ffff;
+}
+
+/* When the body has the loading class, we turn loading_1.gif
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
+
+#current_price_box.loading .small_modal {
+    display: block;
+}
+
+#rightControllContainer.loading .small_modal {
+	display: block;
+}
+
+#indiebooking_mwst_settings_table .btn_rewa, #indiebooking_storno_settings_table .btn_rewa {
+	color: #ffffff;
+}
+
+.entry-content .btn_rewa {
+	color: #ffffff;
+} 
+
+.right_button {
+	float: right;
+}
+
+#full_price_display_box {
+	min-width: 300px;
+	max-width: 300px;
+	float: right;
+}
+
+.floating_table {
+/* 	float: right; */
+	max-width: 300px;
+}
+
+#booking_box {
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 0px;
+	text-align: right;
+}
+
+.btn_rewa {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #0054a3;
+    background-image: linear-gradient(to bottom, #0088cc, #0054a3);
+	background-image: -webkit-linear-gradient(to bottom, #0054a3, #0088cc);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 0 10px 0 0;
+    min-width: 50px;
+    padding: 4px 6px;
+    text-align: center;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    vertical-align: middle;
+}
+
+.btnZahlungBestaetigen_grey {
+	background-color: #c0c0c0;
+	background-image: linear-gradient(to bottom, #e0e0e0, #c0c0c0);
+}
+
+/* a.btnZahlungBestaetigen_grey:hover  { */
+/* 	cursor: default; */
+/* 	color: #ffffff; */
+/* } */
+
+a.btn_rewa_grey {
+	background-color: #c0c0c0;
+	background-image: linear-gradient(to bottom, #e0e0e0, #c0c0c0);	
+}
+
+a.btn_rewa_grey:hover  {
+	cursor: default;
+	color: #ffffff;
+}
+
+.clear {
+	clear: both;
+}
+
+.borderTable {
+	border-width: 1px; 
+	border-style:solid; 
+	border-color:black;
+	padding: 3px;	
+}
+
+.myTableRow {
+	/*border-width: 1px; 
+	border-style:solid; 
+	border-color:black;*/
+	padding: 3px;
+	min-width: 70px;	
+}
+
+.myTableRowBold {
+	border-width: 1px; 
+	border-style:solid; 
+	border-color:black;
+	padding: 3px;
+	min-width: 70px;
+	text-decoration: overline;
+	font-weight: bold;
+}
+
+
+
+.date_container {
+	
+}
+
+.calender_container {
+	box-sizing: border-box;
+	min-height: 230px;	
+	max-width: 280px;
+	margin: 10px 10px 10px 0px;
+/* 	float: left; */
+}
+
+.appartment_price_table_definition {
+	text-align: right;
+}
+
+.appartment_full_price_table_definition {
+	border-top: 1px #efefef solid;
+	font-weight: bolder;
+}
+
+
+.date {
+	float: right;
+}
+
+table .date {
+	float: none;
+}
+
+.entry-thumbnail img {
+	max-height: 250px;
+	width: auto;
+}
+
+#apartment_check_table {
+/* 	min-width: 500px; */
+/* 	max-width: 500px; */
+}
+
+.table_active_kz {
+/* 	min-width: 90px; */
+/* 	max-width: 90px; */
+/* 	width: 20%; */
+}
+
+#gutschein_anzahl_spinner {
+/* 	min-width: 30px; */
+/* 	max-width: 30px; */
+/* 	width: 30px;	 */
+}
+
+#gutschein_anzahl_verfuegbar {
+	min-width: 40px;
+	max-width: 40px;
+	width: 40px;	
+}
+
+.price_field {
+	text-align: right;
+	padding-left: 20px;
+}
+  
+  #rs_ib_pdf_logo_container {
+/*   	width: 300px; */
+/*   	height: 300px; */
+  }
+  .rs_ib_pdf_logo {
+	max-width: 300px;
+  	height: auto;
+  	max-height: 100px;
+  }
+  
+  .thumbnail_span {
+	min-width: 130px;
+  	border-right: 1px solid black;
+  	float:left;
+  	margin-right: 10px;
+  }
+  
+  .appartment_list_item {
+	clear: both;
+  	min-height:80px; 
+  }
+
+  
+/* SLIDE THREE */
+  
+.slideThree input[type=checkbox] {
+	visibility: hidden;
+}  
+  
+.slideThree {
+	width: 80px;
+	height: 26px;
+	background: #333;
+	margin: 20px auto;
+
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	position: relative;
+
+	-webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+	-moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+	box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+}
+
+.slideThree:after {
+	content: 'OFF';
+	font: 12px/26px Arial, sans-serif;
+	color: #000;
+	position: absolute;
+	right: 10px;
+	z-index: 0;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px rgba(255,255,255,.15);
+}
+
+.slideThree:before {
+	content: 'ON';
+	font: 12px/26px Arial, sans-serif;
+	color: #00bf00;
+	position: absolute;
+	left: 10px;
+	z-index: 0;
+	font-weight: bold;
+}
+
+.slideThree label {
+	display: block;
+	width: 34px;
+	height: 20px;
+	padding: 0px;
+
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	transition: all .4s ease;
+	cursor: pointer;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	z-index: 1;
+
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+	background: #fcfff4;
+
+	background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	background: -o-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	background: -ms-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 );
+}
+
+.slideThree input[type=checkbox]:checked + label {
+	left: 43px;
+}
+
+div.checkbox table tr td {
+	padding-right: 10px;
+}
+
+.appartmentauswahl_checkbox {
+	float: left;
+}
+
+.paypal_payment_logo {
+	border: none !important;
+    margin-bottom: 0px !important;
+    background-image: url(../../images/de-pp-logos/de-pp-logo-100px.png) !important;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+	width: 100px;
+	height: 26px;
+}
+
+.paypal_express_btn {
+	border: none !important;
+    margin-bottom: 0px !important;
+    background-image: url(../../images/paypal_btn.png) !important;
+/* 	background-image: url(../../images/btn_xpressCheckout.png) !important;  */
+    background-size: cover;
+    background-repeat: no-repeat !important;
+	width: 158px;
+	height: 26px;
+}
+
+.paypal_basic_btn {
+	border: none !important;
+    margin-bottom: 0px !important;
+    background-image: url(../../images/paypal_basic_btn_but6.png) !important;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+	width: 174px;
+	height: 52px;
+}
+
+@media screen and (max-width: 1200px) {
+	.paypal_express_btn {
+		border: none !important;
+	    margin-bottom: 0px !important;
+	    background-image: url(../../images/paypal_btn_mobil.png) !important;
+	    background-size: cover;
+	    background-repeat: no-repeat !important;
+		width: 138px;
+		height: 64px;
+	}
+}
+
+
+.appartment_box {
+/* 	background-color: #123456; */
+}
+
+.rs_ib_global_booking_info_td {
+	padding: 2px 15px;
+	border: 1px solid #ededed;
+}
+
+#open_usermenu {
+/* 	min-width: 20px; */
+/* 	min-height: 20px; */
+/* 	display: none; */
+	display: block;
+	font-weight: 600;
+	width: 25px;
+	min-width: 25px;
+	line-height: 20px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+    background: rgba(0, 0, 0, 0) url("../images/icon_user.png") no-repeat scroll left center;
+}
+
+#open_usermenu:hover {
+	cursor: pointer;
+}
+
+#usermenu {
+/*     background: #464646 none repeat scroll 0 0; */
+	background: #1d6b87 none repeat scroll 0 0;
+	color: #fff;
+    display: none;
+    margin: 0;
+    opacity: 0.9;
+    padding: 5px 15px 5px 15px;
+   	margin-left: auto;
+    margin-right: auto;	
+    position: fixed;
+    right: 0;
+    text-align: left;
+    top: 40px;
+    width: 180px;
+}
+
+#usermenu a {
+	color: #fff;
+}
+
+
+.background_lightgreen {
+    background: #dde9ed;
+}
+
+.padding_all {
+    padding: 15px;
+}
+
+/*
+********Payment Area*************
+*/
+
+.ibui_payment_radio_button {
+/* 	visibility: hidden; */
+	display: none;
+}
+
+.ibui_payment_radio_button_box {
+	background: #ffffff; /*#efefef;*/
+	margin-bottom: 10px;
+}
+
+.ibui_payment_radio_button_box_label > label.btn {
+	font-weight: bold;
+} 
+
+.ibui_payment_radio_button_box_label:HOVER {
+	cursor: pointer;
+}
+
+.ibui_payment_radio_button_box:HOVER {
+	background: #efefef;/*#28728d;*/
+	cursor: pointer;
+}
+
+.ibui_payment_radio_button_box_checked {
+	background: #efefef; /*#28728d;*/
+	border: 5px solid #efefef;
+}
+
+.ibui_payment_radio_button_box_checked .ibui_payment_invoice_icon {
+	background-image: url("../images/invoice_icon48.png");
+}
+
+.ibui_payment_row {
+	border-bottom: 1px solid #EFEFEF;
+	padding-top: 10px;
+}
+
+.ibui_payment_icon {
+	height: 44px;
+	min-width: 68px;
+	max-height: 44px;
+	max-width: 68px;	
+	margin: 0px auto;	
+}
+
+.ibui_payment_invoice_icon {
+	background-image: url("../images/invoice_icon48.png");
+	background-repeat: no-repeat;
+	background-size: 40px 40px;
+}
+
+input.ibui_payment_radio_button[type=radio]:checked ~ label{
+/*   color: #ffffff; */
+	color: #000000;
+}
+
+.ibui_linethrought_price {
+	text-decoration: line-through;
+}
+
+.ibui_degression_price {
+	color: red;
+}
+
+#rs_indiebooking_charNum {
+	text-align: right;
+}
+
+textarea.booking_custom_message {
+	resize: none;
+	min-height: 250px;
+/* 	width: 600px; */
+/* 	height: 120px; */
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+/* 	background-image: url(bg.gif); */
+	background-position: bottom right;
+	background-repeat: no-repeat;	
+}
